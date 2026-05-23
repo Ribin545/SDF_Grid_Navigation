@@ -325,3 +325,8 @@ The following architectural and performance enhancements are planned to further 
 **CPU Access requirement:** Complex-mesh voxelisation in `FFastCpuVoxelizer` requires
 `bAllowCPUAccess = true` on `UStaticMesh` assets, or must be run in the Editor. Shipping
 builds without this will fall back to bounding-box approximation silently.
+
+---
+
+> 🛠️ **Developer Note:** This research project and codebase were developed with assistance from **Antigravity**, an AI coding assistant designed by the Google DeepMind team.
+
